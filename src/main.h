@@ -10,4 +10,9 @@
  */
 int faststrcmp(char* string1, char* string2);
 
+/**
+ * Gets the "hash" of the string.
+ */
+long strhash(char* string);
+
 #endif
